@@ -1,0 +1,8 @@
+{
+  'embeddedLanguageFormatting': 'off',
+  'jsxSingleQuote': true,
+  'semi': false,
+  'singleQuote': true,
+  'trailingComma': 'none',
+  'printWidth': 140
+}
