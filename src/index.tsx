@@ -1,4 +1,3 @@
-import React from 'react'
 import { render } from 'react-dom'
 import { SidebarExtensionSDK, init } from '@contentful/app-sdk'
 import VideoPreview from './components/VideoPreview'

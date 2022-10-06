@@ -1,10 +1,10 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { SidebarExtensionSDK } from '@contentful/app-sdk'
 import videojs from 'video.js'
 import 'video.js/dist/video-js.css'
 import 'videojs-contrib-hls'
 
-export type Props = {
+type Props = {
   sdk: SidebarExtensionSDK
 }
 
@@ -21,7 +21,7 @@ const VideoPreview = (props: Props) => {
     sdk.window.startAutoResizer()
   }, [sdk])
 
-  return <video id='video-preview' width='310' height='250' className='video-js' controls />
+  return <video id='video-preview' className='video-js vjs-default-skin vjs-big-play-centered vjs-16-9' controls />
 }
 
 export default VideoPreview
